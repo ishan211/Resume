@@ -1,0 +1,190 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{center}
+    \textbf{\Huge \scshape Ishan Leung} \\ \vspace{1pt}
+    \small (604) 499 - 0211 $|$ \href{mailto:ishan.leung@outlook.com}{\underline{ishan.leung@outlook.com}} $|$ 
+    \href{https://linkedin.com/in/ishan-leung}{\underline{linkedin.com/in/ishan-leung}} $|$
+    \href{https://github.com/ishan211}{\underline{github.com/ishan211}} $|$
+    \href{https://ishanleung.netlify.app}{\underline{bit.ly/ishanleung}}
+\end{center}
+
+%------Summary of Skills
+
+\section{Summary of Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: HTML, CSS, JavaScript, BootStrap, TypeScript, Python, C++} \\
+     \textbf{Frameworks \& Libraries}{: React, Node.js, Flask, Pandas, NumPy, SciPy, MatPlotLib, Tensorflow, OpenCV} \\
+     \textbf{Developer Tools}{: Git, Github, Firebase, Visual Studio Code, PyCharm, CLion, Linux, Nano, JuPyter Notebooks, Figma} \\
+     \textbf{Technologies}{: Autodesk Fusion360, Blender, SketchUp, TinkerCAD, AutoDesk EAGLE Arduino, ESP32}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {SPAMUN | Under-Secretary General of IT}{Sept. 2022 -- Sept. 2023}
+      {HTML, CSS, JS, Networking, IT and Systems Management}{Southpointe Academy Model UN, BC}
+      \resumeItemListStart
+        \resumeItem{Designed and performed full stack web development in HTML, CSS, and JavaScript for the conference’s web site}
+        \resumeItem{Constructed an in-house WiFi network for use by the delegation staff and conference delegates for over \textbf{200 users}}
+        \resumeItem{Created digital forms such as delegate registration, committee / delegation assignments, \& the country matrix using JotForm, Google Forms, and Google Sheets}
+      \resumeItemListEnd
+    \resumeSubheading
+      {SHAD McMaster University | Team Lead}{July 2022}
+      {CAD, Blender, Figma, Financial Analysis, Leadership, Soft/Interpersonal Skills}{Hamilton, ON}
+      \resumeItemListStart
+        \resumeItem{Competed in a highly selective STEM-based entrepreneurship program to create an innovative solution to address the problem statement of “improving one’s well being”}
+        \resumeItem{Designed an inclusive playground for mobility-impaired and non-impaired children alike using CAD (Blender, Fusion360) software}
+        \resumeItem{Drafted a comprehensive financial report and pitched idea to a panel of judges, where I was awarded \textbf{Best Financial Report}}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+%--------Volunteering
+
+\section{Volunteering}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Robotics Club | Founder and Club President}{Sept. 2022 -- Aug. 2024}
+      {Teaching, PCB and Circuit Design, Python, JS, C++, 3D CAD, Mechanical Design}{Southpointe Academy, BC}
+      \resumeItemListStart
+        \resumeItem{\textbf{Founded} the robotics club at my high school out of a need for STEM-based learning outside of the classroom}
+        \resumeItem{\textbf{Taught} elementary, middle, and high school students to build robots (Lego Mindstorms, VEX Robotics, and from scratch) and how to program in languages such as block programming, Python, and JavaScript to integrate into their robot builds}
+        \resumeItem{Hosted the inaugural Southpointe Robotics Competition and Hackathon to \textbf{improve STEM outreach} and promote in-club camaraderie}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Science Fair Club | Club Executive (2022-2024)}{2019 -- 2024}
+      {Python, NumPy, SciPy, Tensorflow, CNNs, CV, Embedded Systems Programming, Circuitry, C++}{Delta, BC}
+      \resumeItemListStart
+        \resumeItem{\textbf{Mentored student’s science fair projects} through providing feedback on lab reports, assisting in developing a testable hypothesis, and facilitated mock judging sessions to improve their projects}
+        \resumeItem{Developed a \textbf{Convolutional Neural Network} that can accept MRI scans from various acquisition angles (e.g. Sagittal, Coronal, and Axial) to accurately predict if there is a tumor with \textbf{~92.8\% Accuracy} and to provide tumor sub-classification to aid physicians in performing a more accurate diagnosis sooner using \textbf{Python and Tensorflow}}
+        \resumeItem{Developed a video game aimed for children with Autism Spectrum Disorder (ASD) to improve their bilateral coordination by incorporating various exercises given to them by a pediatric physical therapist resulting in a \textbf{~32.5\% increase in coordination} in subjects aged < 12 with an ASD}
+    \resumeItemListEnd
+
+\begin{comment}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Gitlytics}}{June 2020 -- Present}
+          \resumeItemListStart
+            \resumeItem{Developed a}
+            \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
+            \resumeItem{Visualized GitHub data to show collaboration}
+            \resumeItem{Used Celery and Redis for asynchronous tasks}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\end{comment}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {The University of Waterloo}{Waterloo, ON}
+      {Bachelor of Applied Science (BASc) in Computer Engineering}{Sept. 2024 -- April 2029}
+   \begin{comment} \resumeSubheading
+      {Southpointe Academy}{Delta, BC}
+      {BC Dogwood High School Graduation Diploma}{Sept. 2019 -- June 2024}
+  \resumeSubHeadingListEnd
+\end{comment}
+
+%-------------------------------------------
+\end{document}
